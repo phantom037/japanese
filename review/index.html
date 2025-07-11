@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Hiragana Review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌸 Hiragana Review</h1>
+        </header>
+
+        <div class="screen active" id="reviewScreen">
+            <div class="review-card">
+                <h2>Review Hiragana</h2>
+                <p>Select an agyo line to review its characters and sounds</p>
+
+                <div class="line-selector">
+                    <select id="lineSelect">
+                        <option value="a">A-line (あ い う え お)</option>
+                        <option value="ka">Ka-line (か き く け こ)</option>
+                        <option value="sa">Sa-line (さ し す せ そ)</option>
+                        <option value="ta">Ta-line (た ち つ て と)</option>
+                        <option value="na">Na-line (な に ぬ ね の)</option>
+                        <option value="ha">Ha-line (は ひ ふ へ ほ)</option>
+                        <option value="ma">Ma-line (ま み む め も)</option>
+                    </select>
+                </div>
+
+                <div class="hiragana-display">
+                    <span id="currentHiragana">あ</span>
+                    <div id="currentSound">a</div>
+                </div>
+
+                <div class="navigation">
+                    <button class="btn btn-secondary" id="prevBtn">Previous</button>
+                    <button class="btn btn-primary" id="nextBtn">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="hiragana-data.js"></script>
+    <script src="review.js"></script>
+</body>
+</html>

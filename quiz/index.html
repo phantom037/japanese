@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiragana Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌸 Hiragana Quiz</h1>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="stats">
+                <span id="questionCounter">Question 1 of 25</span>
+                <span id="scoreCounter">Score: 0</span>
+            </div>
+        </header>
+
+        <main>
+            <div id="startScreen" class="screen active">
+                <div class="welcome-card">
+                    <h2>Ready to practice hiragana?</h2>
+                    <p>Test your knowledge of hiragana characters from あ to も</p>
+                    <button id="startBtn" class="btn btn-primary">Start Quiz</button>
+                </div>
+            </div>
+
+            <div id="quizScreen" class="screen">
+                <div class="quiz-card">
+                    <div class="hiragana-display">
+                        <span id="currentHiragana">あ</span>
+                    </div>
+                    <div class="options">
+                        <button class="option-btn" data-answer="0"></button>
+                        <button class="option-btn" data-answer="1"></button>
+                        <button class="option-btn" data-answer="2"></button>
+                        <button class="option-btn" data-answer="3"></button>
+                    </div>
+                    <div class="feedback" id="feedback"></div>
+                </div>
+            </div>
+
+            <div id="resultScreen" class="screen">
+                <div class="result-card">
+                    <h2>Quiz Complete!</h2>
+                    <div class="grade-display">
+                        <div class="grade" id="gradeDisplay">A+</div>
+                        <div class="score" id="finalScore">24/25</div>
+                    </div>
+                    <div class="mistakes" id="mistakesList"></div>
+                    <div class="actions">
+                        <button id="retryBtn" class="btn btn-primary">Try Again</button>
+                        <button id="reviewBtn" class="btn btn-secondary">Review Mistakes</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="hiragana-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
