@@ -38,7 +38,7 @@ const hiraganaData = {
     // H row
     'は': 'ha',
     'ひ': 'hi',
-    'ふ': 'fu',
+    'ふ': 'hu',
     'へ': 'he',
     'ほ': 'ho',
     

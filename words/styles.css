@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.screen {
+    display: none;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen.active {
+    display: flex;
+}
+
+.review-card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 400px; /* Fixed minimum height to prevent resizing */
+}
+
+.review-card h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.word-display {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word-display img {
+    width: 70%; /* Changed from 50% to 70% */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    object-fit: cover; /* Ensure image maintains aspect ratio */
+}
+
+.word-display div {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.word-display #currentWord {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.word-display #currentMeaning {
+    color: #666;
+}
+
+.word-display #currentSound {
+    color: #28a745;
+}
+
+.btn {
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+    min-width: 120px;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0,123,255,0.3);
+}
+
+.btn-secondary {
+    background: linear-gradient(145deg, #6c757d, #545b62);
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .review-card {
+        padding: 30px 20px;
+        min-height: 300px; /* Adjusted for mobile */
+    }
+
+    .word-display img {
+        width: 70%; /* Maintains 70% of container width */
+    }
+
+    .word-display div {
+        font-size: 1.2rem;
+    }
+
+    .word-display #currentWord {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+        min-width: 100px;
+    }
+}

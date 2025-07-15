@@ -1,0 +1,22 @@
+[
+    { "word": "いす", "meaning": "Chair", "sound": "isu", "image": "https://i.pinimg.com/736x/c8/e8/b4/c8e8b49dce7ee2e1108e7159b3a12832.jpg" },
+    { "word": "いぬ", "meaning": "Dog", "sound": "inu", "image": "https://i.pinimg.com/736x/74/86/25/748625a320aa26d5418a55ef3b1dba94.jpg" },
+    { "word": "あせ", "meaning": "Sweat", "sound": "ase", "image": "https://i.pinimg.com/736x/b1/9d/a5/b19da5a6a466ed9a9e769d0f0d6c022b.jpg" },
+    { "word": "とけい", "meaning": "Clock", "sound": "tokei", "image": "https://i.pinimg.com/1200x/38/c7/79/38c779c291b1a57df045e33d8b59b75a.jpg" },
+    { "word": "あし", "meaning": "Leg", "sound": "ashi", "image": "https://i.pinimg.com/736x/68/7d/30/687d30dccea8c3f51f85ea0093dd90ea.jpg" },
+    { "word": "ち", "meaning": "Blood", "sound": "chi", "image": "https://i.pinimg.com/1200x/d8/69/ac/d869ac5188d9f105618fdade80d9a682.jpg" },
+    { "word": "はな", "meaning": "Flower", "sound": "hana", "image": "https://i.pinimg.com/736x/52/fd/d7/52fdd7857c0b959e9085a26853f7f0d1.jpg" },
+    { "word": "くつ", "meaning": "Shoes", "sound": "kutsu", "image": "https://i.pinimg.com/1200x/e3/f5/02/e3f50252d4db0f88420706991fe48abc.jpg" },
+    { "word": "ひと", "meaning": "Human", "sound": "hito", "image": "https://i.pinimg.com/736x/75/29/93/7529939a5645116bfbd9044ed049ff37.jpg" },
+    { "word": "ほし", "meaning": "Star", "sound": "hoshi", "image": "https://i.pinimg.com/736x/bd/dc/a9/bddca97050f234225d6828668f9a6e92.jpg" },
+    { "word": "かさ", "meaning": "Umbrella", "sound": "kasa", "image": "https://i.pinimg.com/1200x/18/5e/5b/185e5b1cdec4bedef52b3e2746a8269b.jpg" },
+    { "word": "たこ", "meaning": "Octopus", "sound": "tako", "image": "https://i.pinimg.com/736x/dd/38/88/dd388873f4a1f57f6961ab23a2cb7be3.jpg" },
+    { "word": "ねこ", "meaning": "Cat", "sound": "neko", "image": "https://i.pinimg.com/1200x/5c/2d/99/5c2d9907ddb4bc2a59d60b90b44a044c.jpg" },
+    { "word": "みみ", "meaning": "Ear", "sound": "mimi", "image": "https://i.pinimg.com/736x/eb/ca/a2/ebcaa2c3aefe15b95403a656c1fe598e.jpg" },
+    { "word": "うま", "meaning": "Horse", "sound": "uma", "image": "https://i.pinimg.com/736x/70/f9/06/70f906a3ecbbd9bc2062913da6514e5a.jpg" },
+    { "word": "ふね", "meaning": "Ship", "sound": "hune", "image": "https://i.pinimg.com/736x/e7/d6/45/e7d64507262b747c74e6e84d32177c77.jpg" },
+    { "word": "おへそ", "meaning": "Belly Button", "sound": "oheso", "image": "https://i.pinimg.com/736x/33/4c/e8/334ce8639e93809f20a11584313b6201.jpg" },
+    { "word": "にく", "meaning": "Meat", "sound": "niku", "image": "https://i.pinimg.com/1200x/f2/5c/47/f25c47fa2f0ebbe1f2975007681947e5.jpg" },
+    { "word": "なか", "meaning": "Inside", "sound": "nake", "image": "https://i.pinimg.com/736x/0c/a3/23/0ca323baab300bfd6b287005ac18df3c.jpg" },
+    { "word": "おの", "meaning": "Hammer", "sound": "ono", "image": "https://i.pinimg.com/736x/7f/76/11/7f76113d279bc01dc5bece7e8bb9958c.jpg" }
+]
