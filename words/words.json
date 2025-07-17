@@ -18,5 +18,20 @@
     { "word": "おへそ", "meaning": "Belly Button", "sound": "oheso", "image": "https://i.pinimg.com/736x/33/4c/e8/334ce8639e93809f20a11584313b6201.jpg" },
     { "word": "にく", "meaning": "Meat", "sound": "niku", "image": "https://i.pinimg.com/1200x/f2/5c/47/f25c47fa2f0ebbe1f2975007681947e5.jpg" },
     { "word": "なか", "meaning": "Inside", "sound": "nake", "image": "https://i.pinimg.com/736x/0c/a3/23/0ca323baab300bfd6b287005ac18df3c.jpg" },
-    { "word": "おの", "meaning": "Hammer", "sound": "ono", "image": "https://i.pinimg.com/736x/7f/76/11/7f76113d279bc01dc5bece7e8bb9958c.jpg" }
+    { "word": "おの", "meaning": "Hammer", "sound": "ono", "image": "https://i.pinimg.com/736x/7f/76/11/7f76113d279bc01dc5bece7e8bb9958c.jpg" },
+    { "word": "め", "meaning": "Eye", "sound": "me", "image": "https://i.pinimg.com/736x/6e/e7/5c/6ee75c0a3f2fa48a16f5c8a9a59be4a9.jpg" },
+    { "word": "むし", "meaning": "Insect", "sound": "mushi", "image": "https://i.pinimg.com/736x/78/f4/6c/78f46c8ee2e79d3935a98c9b6ebe4e53.jpg" },
+    { "word": "え", "meaning": "Drawing", "sound": "e", "image": "https://i.pinimg.com/1200x/64/e9/06/64e906a5f28bc9d65feb78e4f0aeb8f4.jpg" },
+    { "word": "こい", "meaning": "Koi Fish", "sound": "koi", "image": "https://i.pinimg.com/736x/b7/4a/7a/b74a7ae738ab0b4d4795bacb3836e4ed.jpg" },
+    { "word": "くうき", "meaning": "Breath", "sound": "kuuki", "image": "https://i.pinimg.com/736x/76/98/d0/7698d033b55a6756498baca9a40f939d.jpg" },
+    { "word": "き", "meaning": "Tree", "sound": "ki", "image": "https://i.pinimg.com/736x/e7/89/77/e78977011391ac94eb2e2befbd071f87.jpg" },
+    { "word": "もも", "meaning": "Peach", "sound": "momo", "image": "https://i.pinimg.com/736x/28/ff/f3/28fff36251bf361f5de013fe19d2dea1.jpg" },
+    { "word": "うそ", "meaning": "Lie", "sound": "uso", "image": "https://i.pinimg.com/736x/0a/c5/27/0ac52770d0add6365f0dc1465367021e.jpg" },
+    { "word": "いけ", "meaning": "Lake", "sound": "ike", "image": "https://i.pinimg.com/1200x/e4/0f/c1/e40fc1f5ba3d5be9e14776747dd3233b.jpg" },
+    { "word": "いえ", "meaning": "House", "sound": "ie", "image": "https://i.pinimg.com/736x/5e/a4/e5/5ea4e5262f2b1e81b4e170ba4b7dabee.jpg" },
+    { "word": "あい", "meaning": "Love", "sound": "ai", "image": "https://i.pinimg.com/736x/aa/8f/82/aa8f82fdd6f997401ec75f28f90267d3.jpg" },
+    { "word": "あお", "meaning": "Blue", "sound": "ao", "image": "https://i.pinimg.com/736x/53/df/99/53df9958d0165b2a84ccd2d9d43e8eca.jpg" },
+    { "word": "うえ", "meaning": "Up", "sound": "ue", "image": "https://i.pinimg.com/736x/cc/4f/a1/cc4fa1d6d2017cadc62a4661e86a7e97.jpg" },
+    { "word": "て", "meaning": "Hand", "sound": "te", "image": "https://i.pinimg.com/1200x/05/6f/46/056f46de8cbbe5a4d7de9df1ce816ccd.jpg" },
+    { "word": "かお", "meaning": "Face", "sound": "kao", "image": "https://i.pinimg.com/736x/88/7c/cc/887cccbd1656d926a28cb1f571fe7a10.jpg" }
 ]
